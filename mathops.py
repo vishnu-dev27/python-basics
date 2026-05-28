@@ -1,0 +1,5 @@
+a = int(input("enter first number: "))
+b = int(input("enter seconmd number: "))
+print ("sum =", a+b)
+print ("product =", a*b)
+print ("difference =" a-b)
