@@ -1,0 +1,20 @@
+#1 exam score evaluation
+
+marks = 91
+if marks >= 50:
+	print("you have passed this test")
+else:
+	print("you have failed this test!")
+
+
+#2 voting age consent
+
+age = 17
+
+if age >= 18:
+	print("you can vote!")
+elsr:
+	print("you can't vote!")
+	
+
+
