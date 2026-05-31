@@ -1,0 +1,37 @@
+#1️⃣. Iterate list (Python
+cars = ['Audi', 'BMW', 'Toyota']
+
+for car in cars:
+    print(car)
+#. tIterate list using range (Python
+cars = ['Audi', 'BMW', 'Toyota']
+
+for i in range(len(cars)):
+    print(cars[i])
+#3. List comprehension Python
+cars = ['Audi','Ferrari','Toyota']
+[print (car) in cars]
+ Iterate dictionary (keys only)
+Python
+student = {"name": "Vishnu", "age": 18}
+
+for key in student:
+    print(key)
+5️⃣ Dictionary values only
+Python
+student = {"name": "Vishnu", "age": 18}
+
+for key in student:
+    print(student[key])
+6️⃣ Dictionary keys only
+Python
+student = {"name": "Vishnu", "age": 18}
+
+for key in student:
+    print(key)
+7️⃣ Keys and values (simple)
+Python
+student = {"name": "Vishnu", "age": 18}
+
+for key, value in student.items():
+    print(key, value)
