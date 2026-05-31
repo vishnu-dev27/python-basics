@@ -3,7 +3,7 @@ cars = ['Audi', 'BMW', 'Toyota']
 
 for car in cars:
     print(car)
-#2. tIterate list using range (Python
+#2. Iterate list using range (Python
 cars = ['Audi', 'BMW', 'Toyota']
 
 for i in range(len(cars)):
