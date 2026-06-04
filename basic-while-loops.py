@@ -24,7 +24,7 @@ while True:
 #4. Breaking the infinite while-loop
 
 while True:
-    line = ("enter the line()type 'q'to quit: ")
+    line = ("enter the line(type 'q'to quit): ")
         if line == 'q':
             break
             print(line)
