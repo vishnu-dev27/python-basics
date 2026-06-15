@@ -1,0 +1,41 @@
+#FUNCTIONS WITH RETURN VALUES MATH OPERATIONS
+
+
+#1. Addition with return value
+
+def add(a,b):
+    return a+b
+redult = add(2,3)
+print(result)
+
+5
+
+
+#2. Subtraction with return value
+
+def difference(a,b):
+    return a-b
+redult = difference(10,7)
+print(result) 
+
+3
+
+
+#3. Product with return Value
+
+def product(a,b):
+    return a*b
+redult = product(2,3)
+print(result)
+
+6
+
+
+#4. Division with return Value
+
+def divide(a,b):
+    return a/b
+redult = divide(10,5)
+print(result)
+
+2
