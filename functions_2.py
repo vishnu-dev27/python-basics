@@ -31,7 +31,7 @@ outer()
 
 def countdown(n):
     if n == 0:
-        print("The space is now ready for launch.")
+        print("The space shuttle is now ready for launch.")
         return
     print(n)
     countdown(n -1)
