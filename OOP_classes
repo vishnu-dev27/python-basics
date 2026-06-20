@@ -1,0 +1,49 @@
+class Employee:
+    pass
+
+emp_1 = Employee()
+emp_2 = Employee()
+
+emp_1.first = 'Sai'
+emp_1.last = 'Vishnu'
+emp_1.email = 'Sai.Vishnu@company.com'
+emp_1.pay = 80000
+
+emp_2.first = 'Michael'
+emp_2.last = 'Scott'
+emp_2.email = 'Michael.Scott@company.com'
+emp_2.pay = 75000 
+
+print(emp_1)
+print(emp_2)
+
+
+class Employee:
+    def __init__(self,first,last,pay):
+        self.first = first
+        self.last = last
+        self.pay = 80000
+        self.email = 'first'+'.'+'last'+'@company.com'
+
+    emp_1=Employee('Sai','Vishnu',80000)
+    emp_2=Employee('Michael','Scott',75000)
+
+print(emp_1.email)
+print(emp_2.email)
+
+
+class Employee:
+    def __init__(self,first,last,pay):
+        self.first = first
+        self.last = last
+        self.pay = 80000
+        self.email = 'first'+'.'+'last'+'@company.com'
+        
+        def Fullname(self):
+            return '{} {}'.format(slef.first,self.last)
+
+    emp_1=Employee('Sai','Vishnu',80000)
+    emp_2=Employee('Michael','Scott',75000)
+
+print(emp_1.Fullname())
+print(emp_2.Fullname())
