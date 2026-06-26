@@ -38,7 +38,7 @@ class CurrentAccount(Account):
         print(f"Personal Loan sanctioned for {self.name}")
 c1 = CurrentAccount("Vishnu",1265,56890)
 c2 = CurrentAccount("Nick",1266,46890)
-c3 = CurrentAccount("Vishnu",1267,66890)
+c3 = CurrentAccount("Chris",1267,66890)
 c1.check_balance()
 c1.deposit(2190)
 c1.withdraw(3247)
