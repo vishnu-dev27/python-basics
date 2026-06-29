@@ -1,3 +1,4 @@
+#SuperMarket Simulator:
 class customer:
     def __init__(self,name,customer_id,bill):
         self.name = name
